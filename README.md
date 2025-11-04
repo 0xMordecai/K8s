@@ -18,7 +18,7 @@ By now, you should understand what containers are and how to build and run conta
 
 • **Containers provide horizontal scalability as you can create a copy of the container and use a `load balancer` in front of a pool of containers.** *One way of doing this is to decide upfront and deploy the desired number of containers, but that isn’t optimal resource utilization*. **What if I tell you that you need to horizontally scale your containers dynamically with traffic** – in other words, *by creating additional container instances to handle the extra load when there is more traffic and reducing them when there is less*?
 
-• There are container health check reports on the containers’ health. What if the container is unhealthy, and you want to auto-heal it? What would happen if an entire server goes down and you want to schedule all containers running on that server to another?
+• *There are container health check reports on the containers’ health*. **What if the container is unhealthy, and you want to auto-heal it? What would happen if an entire server goes down and you want to schedule all containers running on that server to another?**
 
 • As containers mostly run within a server and can see each other, how would I ensure that only the required containers can interact with the other, something we usually do with VMs? We cannot compromise on security.
 
