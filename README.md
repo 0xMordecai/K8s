@@ -25,3 +25,20 @@ By now, you should understand what containers are and how to build and run conta
 • **Modern cloud platforms allow us to run autoscaling VMs**. **How can we utilize that from the perspective of containers?** For example, *if I need just one VM for my containers during the night and five during the day*, **how can I ensure that the machines are dynamically allocated when we need them?**
 
 **• How do you manage the networking between multiple containers if they are part of a more comprehensive service mesh?**
+
+
+Kubernetes is an open-source container orchestrator originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF). It has revolutionized infrastructure management by treating servers as a unified cluster capable of running any containerized application, removing the need to handle high availability, scalability, and disaster recovery separately for each app.
+
+Kubernetes provides:
+
+Centralized control via an API server and kubectl command-line tool.
+
+Container scheduling by choosing the right server to run containers through the kubelet.
+
+State management using etcd, a key-value store that maintains the desired configuration and automatically corrects deviations.
+
+Networking and service discovery through a virtual IP system and DNS, allowing containers to communicate seamlessly across nodes.
+
+Cloud integration for automating resources like load balancers and persistent storage.
+
+In essence, Kubernetes automates container deployment, scaling, networking, and maintenance, providing high availability, scalability, and zero downtime out of the box.
