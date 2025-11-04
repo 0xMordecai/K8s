@@ -13,3 +13,5 @@
 # What is Kubernetes, and why do I need it?
 
 By now, you should understand what containers are and how to build and run containers using Docker. However, how we ran containers using Docker was not optimal from a production standpoint. Let me give you a few considerations to think about:
+
+• As portable containers can run on any Docker machine just fine, multiple containers also share server resources to optimize resource consumption. Now, think of a microservices application that comprises hundreds of containers. How will you choose what machine to run the containers on? What if you want to dynamically schedule the containers to another machine based on resource consumption?
