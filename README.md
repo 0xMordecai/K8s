@@ -24,4 +24,4 @@ By now, you should understand what containers are and how to build and run conta
 
 • Modern cloud platforms allow us to run autoscaling VMs. How can we utilize that from the perspective of containers? For example, if I need just one VM for my containers during the night and five during the day, how can I ensure that the machines are dynamically allocated when we need them?
 
-•
+•How do you manage the networking between multiple containers if they are part of a more comprehensive service mesh?
