@@ -38,7 +38,7 @@ By now, you should understand what containers are and how to build and run conta
 
 **`State management` using `etcd`, a key-value store that maintains the desired configuration and automatically corrects deviations.**
 
-Networking and service discovery through a virtual IP system and DNS, allowing containers to communicate seamlessly across nodes.
+**`Networking and service discovery` through a virtual IP system and DNS, allowing containers to communicate seamlessly across nodes.**
 
 Cloud integration for automating resources like load balancers and persistent storage.
 
