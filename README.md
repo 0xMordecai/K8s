@@ -28,7 +28,7 @@ By now, you should understand what containers are and how to build and run conta
 
 **The answer to all these questions is a container orchestrator, and the most popular and de facto standard for that is Kubernetes.**
 
-Kubernetes is an open-source container orchestrator originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF). It has revolutionized infrastructure management by treating servers as a unified cluster capable of running any containerized application, removing the need to handle high availability, scalability, and disaster recovery separately for each app.
+**Kubernetes is an open-source `container orchestrator` originally developed by Google and now maintained by the `Cloud Native Computing Foundation (CNCF)`. It has revolutionized `infrastructure management` by treating servers as a unified cluster capable of running any containerized application, removing the need to handle high availability, scalability, and disaster recovery separately for each app.**
 
 Kubernetes provides:
 
