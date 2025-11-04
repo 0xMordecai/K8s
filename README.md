@@ -42,4 +42,4 @@ By now, you should understand what containers are and how to build and run conta
 
 **`Cloud integration` for automating resources like load balancers and persistent storage.**
 
-In essence, Kubernetes automates container deployment, scaling, networking, and maintenance, providing high availability, scalability, and zero downtime out of the box.
+**In essence, Kubernetes automates container `deployment`, `scaling`, `networking`, and `maintenance`, providing `high availability`, `scalability`, and `zero downtime` out of the box.**
