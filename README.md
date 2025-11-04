@@ -34,9 +34,9 @@ By now, you should understand what containers are and how to build and run conta
 
 **`Centralized control` via an `API server` and `kubectl` command-line tool.**
 
-Container scheduling by choosing the right server to run containers through the kubelet.
+**`Container scheduling` by choosing the right server to run containers through the `kubelet`.**
 
-State management using etcd, a key-value store that maintains the desired configuration and automatically corrects deviations.
+**`State management` using `etcd`, a key-value store that maintains the desired configuration and automatically corrects deviations.**
 
 Networking and service discovery through a virtual IP system and DNS, allowing containers to communicate seamlessly across nodes.
 
