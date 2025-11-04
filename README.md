@@ -22,6 +22,6 @@ By now, you should understand what containers are and how to build and run conta
 
 • *As containers mostly run within a server and can see each other*, **how would I ensure that only the required containers can interact with the other**, something we usually do with VMs? We cannot compromise on security.
 
-• Modern cloud platforms allow us to run autoscaling VMs. How can we utilize that from the perspective of containers? For example, if I need just one VM for my containers during the night and five during the day, how can I ensure that the machines are dynamically allocated when we need them?
+• **Modern cloud platforms allow us to run autoscaling VMs**. **How can we utilize that from the perspective of containers?** For example, *if I need just one VM for my containers during the night and five during the day*, **how can I ensure that the machines are dynamically allocated when we need them?**
 
 **• How do you manage the networking between multiple containers if they are part of a more comprehensive service mesh?**
