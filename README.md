@@ -30,9 +30,9 @@ By now, you should understand what containers are and how to build and run conta
 
 **Kubernetes is an open-source `container orchestrator` originally developed by Google and now maintained by the `Cloud Native Computing Foundation (CNCF)`. It has revolutionized `infrastructure management` by treating servers as a unified cluster capable of running any containerized application, removing the need to handle high availability, scalability, and disaster recovery separately for each app.**
 
-Kubernetes provides:
+**Kubernetes provides:**
 
-Centralized control via an API server and kubectl command-line tool.
+**`Centralized control` via an `API server` and `kubectl` command-line tool.**
 
 Container scheduling by choosing the right server to run containers through the kubelet.
 
