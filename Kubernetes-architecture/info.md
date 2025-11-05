@@ -24,6 +24,6 @@
 
 **`•Scheduler`: A `Kubernetes scheduler` schedules containers in a worker node it finds fit after considering the availability of resources to run it, the `HA(High Availability)` of your application, and other aspects.**
 
-• kubelet: the kubelet interacts with the underlying container runtime to run containers on the scheduler’s instruction. While most Kubernetes components can run as a container, the kubelet is the only component that runs as a systemd service. They usually run on worker nodes, but if you plan to run the control plane components as containers instead, the kubelet will also run on the control plane nodes.
+**• ``kubelet``: the `kubelet` interacts with the underlying container runtime to run containers on the scheduler’s instruction. While most Kubernetes components can run as a container, the `kubelet` is the only component that runs as a systemd service. They usually run on worker nodes, but if you plan to run the control plane components as containers instead, the `kubelet` will also run on the control plane nodes.**
 
 • kube-proxy: kube-proxy runs on each worker node and provides the components for your containers to interact with the network components inside and outside your cluster. They are vital components that facilitate Kubernetes networking.
