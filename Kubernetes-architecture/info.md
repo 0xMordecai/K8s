@@ -4,7 +4,7 @@
 
 ![alt text](image.png)
 
-The control plane comprises the following components:
+**The control plane comprises the following components:**
 
 **• `API server`: the `API server` exposes a set of APIs for external and internal actors to interact with Kubernetes. All interactions with Kubernetes happen via the `API server`, as evident from the preceding diagram. If you visualize the Kubernetes cluster as a ship, the `API server` is the ship’s captain.**
 
