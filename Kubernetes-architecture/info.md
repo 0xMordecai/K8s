@@ -17,6 +17,6 @@
 
 • Cloud controller manager:The cloud controller manager interacts with the cloud provider APIs to provision resources such as persistent disks and load balancers that you declare in your Kubernetes configuration.
 • etcd:  this is a key-value store where all the desired Kubernetes configuration is stored. The controller manager refers to the information in this database to action changes in the cluster
-•
+•Scheduler: The schedulers are the boatswain of the ship. They are tasked with supervising the process of loading and unloading containers on the ship. A Kubernetes scheduler schedules containers in a worker node it finds fit after considering the availability of resources to run it, the HA of your application, and other aspects.
 •
 •
