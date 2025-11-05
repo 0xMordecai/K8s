@@ -28,5 +28,6 @@
 
 **• `kube-proxy`: `kube-proxy` runs on each worker node and provides the components for your containers to interact with the network components inside and outside your cluster. They are vital components that facilitate Kubernetes networking.**
 
-
 **Well, that’s a lot of moving parts, but the good news is that tools are available to set that up for you, and provisioning a `Kubernetes cluster` is very simple. If you are running on a public cloud, it is only a few clicks away, and you can use your cloud’s web UI or CLI to provision it very quickly. You can use `kubeadm` for the setup if you have an `on-premises` installation.**
+
+For development and your CI/CD environments, you can use Minikube or Kubernetes in Docker(KinD). While Minikube can run a single-node Kubernetes cluster on your development machine directly by using your machine as the node, it can also run a multi-node cluster by running Kubernetes nodes as containers. KinD, on the other hand, exclusively runs your nodes as containers on both single-node and multi-node configurations. You need a VM with the requisite resources in both cases, and you’ll be good to go.
