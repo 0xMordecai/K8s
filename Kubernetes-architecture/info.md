@@ -28,4 +28,4 @@
 
 **• `kube-proxy`: `kube-proxy` runs on each worker node and provides the components for your containers to interact with the network components inside and outside your cluster. They are vital components that facilitate Kubernetes networking.**
 
-Well, that’s a lot of moving parts, but the good news is that tools are available to set that up for you, and provisioning a Kubernetes cluster is very simple. If you are running on a public cloud, it is only a few clicks away, and you can use your cloud’s web UI or CLI to provision it very quickly. You can use kubeadm for the setup if you have an on-premises installation.
+**Well, that’s a lot of moving parts, but the good news is that tools are available to set that up for you, and provisioning a `Kubernetes cluster` is very simple. If you are running on a public cloud, it is only a few clicks away, and you can use your cloud’s web UI or CLI to provision it very quickly. You can use `kubeadm` for the setup if you have an `on-premises` installation.**
