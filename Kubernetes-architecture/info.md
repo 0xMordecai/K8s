@@ -11,12 +11,19 @@
 **• `Controller manager`: The `controller manager` is the ship’s executive officer and is tasked with ensuring that the captain’s orders are followed in the cluster. From a technical perspective, the `controller manager` reads the current and desired states and takes all actions necessary to move the current state to the desired state. It contains a set of controllers that interact with the Kubernetes components via the API server as and when needed. Some of these are as follows:**
 
 • Node controller: This watches for when the node goes down and responds by interacting with the Kube scheduler via the Kube API server to schedule the pods to a healthy node.
+
 • Replication controller: This ensures that the correct amount of container replicas defined by replication controller objects in the cluster exist.
+
 • Endpoints controller: These assist in providing endpoints to your containers via services.
+
 • Service account and token controllers: These create default accounts and tokens for new namespaces.
 
 • Cloud controller manager:The cloud controller manager interacts with the cloud provider APIs to provision resources such as persistent disks and load balancers that you declare in your Kubernetes configuration.
+
 • etcd:  this is a key-value store where all the desired Kubernetes configuration is stored. The controller manager refers to the information in this database to action changes in the cluster
+
 •Scheduler: A Kubernetes scheduler schedules containers in a worker node it finds fit after considering the availability of resources to run it, the HA(High Availability) of your application, and other aspects.
+
 • kubelet: the kubelet interacts with the underlying container runtime to run containers on the scheduler’s instruction. While most Kubernetes components can run as a container, the kubelet is the only component that runs as a systemd service. They usually run on worker nodes, but if you plan to run the control plane components as containers instead, the kubelet will also run on the control plane nodes.
+
 • kube-proxy: kube-proxy runs on each worker node and provides the components for your containers to interact with the network components inside and outside your cluster. They are vital components that facilitate Kubernetes networking.
