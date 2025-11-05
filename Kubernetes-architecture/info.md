@@ -34,4 +34,6 @@
 
 **While `Minikube` can run a `single-node` Kubernetes cluster on your development machine directly by using your machine as the node, it can also run a `multi-node cluster` by running Kubernetes nodes as containers.**
 
-**`KinD`, on the other hand, exclusively runs your nodes as containers on both `single-node` and `multi-node` configurations. You need a VM with the requisite resources in both cases, and you’ll be good to go.**
+**`KinD`, on the other hand, exclusively runs your nodes as containers on both `single-node` and `multi-node` configurations.**
+
+**You need a VM with the requisite resources in both cases, and you’ll be good to go.**
