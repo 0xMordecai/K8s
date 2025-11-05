@@ -11,8 +11,8 @@
 **• `Controller manager`: The `controller manager` is the ship’s executive officer and is tasked with ensuring that the captain’s orders are followed in the cluster. From a technical perspective, the `controller manager` reads the current and desired states and takes all actions necessary to move the current state to the desired state. It contains a set of controllers that interact with the Kubernetes components via the API server as and when needed. Some of these are as follows:**
 
 • Node controller: This watches for when the node goes down and responds by interacting with the Kube scheduler via the Kube API server to schedule the pods to a healthy node.
-•Replication controller: This ensures that the correct amount of container replicas defined by replication controller objects in the cluster exist.
-•
+• Replication controller: This ensures that the correct amount of container replicas defined by replication controller objects in the cluster exist.
+• Endpoints controller: These assist in providing endpoints to your containers via services.
 •
 
 •
