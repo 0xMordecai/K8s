@@ -15,7 +15,7 @@
 • Endpoints controller: These assist in providing endpoints to your containers via services.
 • Service account and token controllers: These create default accounts and tokens for new namespaces.
 
-•
+• Cloud controller manager:The cloud controller manager interacts with the cloud provider APIs to provision resources such as persistent disks and load balancers that you declare in your Kubernetes configuration.
 •
 •
 •
