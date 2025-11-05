@@ -17,6 +17,6 @@
 
 • Cloud controller manager:The cloud controller manager interacts with the cloud provider APIs to provision resources such as persistent disks and load balancers that you declare in your Kubernetes configuration.
 • etcd:  this is a key-value store where all the desired Kubernetes configuration is stored. The controller manager refers to the information in this database to action changes in the cluster
-•Scheduler: The schedulers are the boatswain of the ship. They are tasked with supervising the process of loading and unloading containers on the ship. A Kubernetes scheduler schedules containers in a worker node it finds fit after considering the availability of resources to run it, the HA of your application, and other aspects.
+•Scheduler: A Kubernetes scheduler schedules containers in a worker node it finds fit after considering the availability of resources to run it, the HA(High Availability) of your application, and other aspects.
 • kubelet: the kubelet interacts with the underlying container runtime to run containers on the scheduler’s instruction. While most Kubernetes components can run as a container, the kubelet is the only component that runs as a systemd service. They usually run on worker nodes, but if you plan to run the control plane components as containers instead, the kubelet will also run on the control plane nodes.
 •
