@@ -13,7 +13,7 @@
 • Node controller: This watches for when the node goes down and responds by interacting with the Kube scheduler via the Kube API server to schedule the pods to a healthy node.
 • Replication controller: This ensures that the correct amount of container replicas defined by replication controller objects in the cluster exist.
 • Endpoints controller: These assist in providing endpoints to your containers via services.
-•
+• Service account and token controllers: These create default accounts and tokens for new namespaces.
 
 •
 •
