@@ -11,3 +11,5 @@ curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikub
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 # install the packages required by Minikube to function correctly
 sudo apt-get install -y conntrack
+# Check existing Docker contexts
+docker context ls
