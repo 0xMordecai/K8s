@@ -9,5 +9,5 @@ kubectl version --client
 curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
 # Install kubectl to /usr/local/bin/minikube
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
-
+# install the packages required by Minikube to function correctly
 sudo apt-get install -y conntrack
