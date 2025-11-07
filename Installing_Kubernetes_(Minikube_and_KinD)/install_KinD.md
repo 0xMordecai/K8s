@@ -1,1 +1,7 @@
 # Installing KinD
+
+KinD allows you to run a multi-node Kubernetes cluster on a single server that runs Docker. We
+understand that a multi-node Kubernetes cluster requires multiple machines, but how can we run a
+multi-node Kubernetes cluster on a single server? The answer is simple: KinD uses a Docker container
+as a Kubernetes node. So, if we need a four-node Kubernetes cluster, KinD will spin up four containers
+that behave like four Kubernetes nodes. It is as simple as that.
