@@ -13,5 +13,5 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 sudo apt-get install -y conntrack
 # Check existing Docker contexts
 docker context ls
-# set Docker context to `default`
+# set Docker context to `default` to avoid problems running minikube
 docker context use default
