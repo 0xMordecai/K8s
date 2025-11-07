@@ -15,3 +15,5 @@ sudo apt-get install -y conntrack
 docker context ls
 # set Docker context to `default` to avoid problems running minikube
 docker context use default
+# start a minikube cluster
+minikube start --driver=docker
