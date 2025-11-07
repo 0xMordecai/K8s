@@ -2,7 +2,4 @@
 
 **KinD allows you to run a multi-node Kubernetes cluster on a single server that runs Docker. We understand that a multi-node Kubernetes cluster requires multiple machines, but how can we run a multi-node Kubernetes cluster on a single server? The answer is simple: KinD uses a Docker container as a Kubernetes node. So, if we need a four-node Kubernetes cluster, KinD will spin up four containers that behave like four Kubernetes nodes. It is as simple as that.**
 
-While you need Docker to run KinD, KinD internally uses containerd as a container runtime instead
-of Docker. Containerd implements the container runtime interface; therefore, Kubernetes does not
-require any specialized components, such as dockershim, to interact with it. This means that KinD
-still works with Kubernetes since Docker isn’t supported anymore as a Kubernetes container runtime.
+While you need Docker to run KinD, KinD internally uses containerd as a container runtime instead of Docker. Containerd implements the container runtime interface; therefore, Kubernetes does not require any specialized components, such as dockershim, to interact with it. This means that KinD still works with Kubernetes since Docker isn’t supported anymore as a Kubernetes container runtime.
