@@ -5,3 +5,4 @@ chmod +x kind
 # move it to the default PATH directory
 sudo mv kind /usr/local/bin/
 # check whether KinD is installed
+kind version
