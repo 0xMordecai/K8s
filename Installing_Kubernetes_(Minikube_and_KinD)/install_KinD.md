@@ -26,5 +26,4 @@
     kind create cluster --config kind-config.yaml
 ```
 
-With that, our KinD cluster is up and running. Now, let’s list the nodes to see for certain by using the
-following command:
+With that, our KinD cluster is up and running. Now, let’s list the nodes to see for certain by using the following command:
