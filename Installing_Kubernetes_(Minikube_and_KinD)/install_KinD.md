@@ -21,3 +21,7 @@
 **We can also have an `HA configuration` with multiple control planes using multiple node items with the control plane role. For now, let’s stick with a `single control plane, three-worker node configuration`.**
 
 **To bootstrap your KinD cluster with the preceding configuration, run the following command:**
+
+```shell
+    kind create cluster --config kind-config.yaml
+```
