@@ -38,6 +38,13 @@
 
 **If you modify files or download packages within the container in `exec` mode, they will persist until the current pod is alive. Once the pod is gone, you will lose all changes. Therefore, it isn’t a great way of fixing issues. You should only diagnose problems using `exec`, bake the correct changes in a new image, and then redeploy it.**
 
-# Tip II
+# Tip II 
 
 **When we looked at `distroless` containers, they did not allow exec into the container for security reasons. There are debug images available for `distroless` that will enable you to open a shell session for troubleshooting purposes if you wish.**
+
+# Tip III
+
+By default, a container runs as the root user if you don’t specify the user within the Dockerfile
+while building the image. You can set a runAsUser attribute within your pod’s security
+context if you want to run your pod as a specific user, but this is not ideal. The best practice is
+to bake the user within the container image.
