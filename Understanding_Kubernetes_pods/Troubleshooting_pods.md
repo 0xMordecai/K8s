@@ -78,3 +78,7 @@
     insufficient_scope: authorization failed
 ```
 **So, this one is telling us that either the repository does not exist, or the repository exists but it is private, and hence authorization failed.**
+
+# Tip IV
+
+You can use kubectl describe for most Kubernetes resources. It should be the first command you use while troubleshooting issues.
