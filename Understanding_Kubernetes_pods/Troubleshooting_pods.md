@@ -5,4 +5,6 @@
 **To access the container logs, run the following command:**
 ```shell
     kubectl logs nginx -c nginx
+    ...
+    27.0.0.1 - - [08/Nov/2025:20:59:54 +0000] "GET / HTTP/1.1" 200 615 "-" "curl/8.5.0" "-"
 ```
