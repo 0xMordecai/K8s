@@ -11,3 +11,7 @@
 ```
 
 **As the pod is running a single container, we need not specify the `-c` flag, so instead, you can use the following command:**
+
+```shell
+    kubectl logs nginx
+```
