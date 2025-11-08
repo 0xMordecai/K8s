@@ -26,5 +26,4 @@
     root@nginx:/etc/nginx# exit
 ```
 
-You can even run specific commands without opening a shell session. For example, we can perform
-the preceding operation with a single line, something like the following:
+You can even run specific commands without opening a shell session. For example, we can perform the preceding operation with a single line, something like the following:
