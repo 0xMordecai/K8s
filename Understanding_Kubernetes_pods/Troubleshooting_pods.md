@@ -52,3 +52,5 @@
 ```shell
     kubectl run nginx-1 --image=nginx-1
 ```
+
+Now, let’s try to get the pod and see for ourselves:
