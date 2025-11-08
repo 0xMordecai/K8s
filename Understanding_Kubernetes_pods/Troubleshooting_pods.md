@@ -62,6 +62,4 @@
     nginx-1   0/1     ImagePullBackOff   0          25s
 ```
 
-Oops! There is some error now, and the status is ImagePullBackOff. Well, it seems like there is some
-issue with the image. While we understand that the issue is with the image, we want to understand the
-real issue, so for further information on this, we can describe the pod using the following command:
+Oops! There is some error now, and the status is ImagePullBackOff. Well, it seems like there is some issue with the image. While we understand that the issue is with the image, we want to understand the real issue, so for further information on this, we can describe the pod using the following command:
