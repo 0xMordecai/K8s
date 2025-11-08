@@ -32,3 +32,10 @@
     $ kubectl exec nginx -- ls /etc/nginx
     conf.d fastcgi_params mime.types modules nginx.conf scgi_params uwsgi_params
 ```
+**kubectl exec is an important command that helps us troubleshoot containers.**
+
+# Tip
+If you modify files or download packages within the container in exec mode, they will persist
+until the current pod is alive. Once the pod is gone, you will lose all changes. Therefore, it isn’t
+a great way of fixing issues. You should only diagnose problems using exec, bake the correct
+changes in a new image, and then redeploy it.
