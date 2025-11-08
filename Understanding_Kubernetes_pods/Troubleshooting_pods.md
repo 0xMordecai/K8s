@@ -49,11 +49,13 @@
 **`We’ve discussed troubleshooting running containers, but what if the containers fail to start for some reason?`**
 
 **Let’s look at the following example:**
+
 ```shell
     kubectl run nginx-1 --image=nginx-1
 ```
 
 **Now, let’s try to get the pod and see for ourselves:**
+
 ```shell
     $ kubectl get pod nginx-1
     NAME      READY   STATUS             RESTARTS   AGE
