@@ -16,4 +16,4 @@
     kubectl logs nginx
 ```
 
-There might be instances where you may want to get a shell to a running container and troubleshoot what’s going on within that. We use docker exec for that in the Docker world. Similarly, we can use kubectl exec for that within Kubernetes.
+**There might be instances where you may want to get a shell to a running container and troubleshoot what’s going on within that. We use `docker exec` for that in the Docker world. Similarly, we can use `kubectl exec` for that within Kubernetes.**
