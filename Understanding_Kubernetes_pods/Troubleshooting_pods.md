@@ -77,3 +77,5 @@
     access denied, repository does not exist or may require authorization: server message:
     insufficient_scope: authorization failed
 ```
+So, this one is telling us that either the repository does not exist, or the repository exists but it is private,
+and hence authorization failed.
