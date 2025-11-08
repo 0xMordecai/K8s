@@ -8,3 +8,5 @@ spec:
   containers:
   - image: nginx
     imagePullPolicy: IfNotPresent
+    name: nginx
+    
