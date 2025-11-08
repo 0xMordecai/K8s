@@ -68,4 +68,11 @@
     kubectl describe pod nginx-1
 ```
 
-Now, this gives us a wealth of information regarding the pod, and if you look at the events section, you will find a specific line that tells us what is wrong with the pod:
+**Now, this gives us a wealth of information regarding the pod, and if you look at the events section, you will find a specific line that tells us what is wrong with the pod:**
+```shell 
+    Warning  Failed     60s (x4 over 2m43s)  kubelet            Failed to pull image "nginx-
+    1": rpc error: code = Unknown desc = failed to pull and unpack image "docker.io/library/
+    nginx-1:latest": failed to resolve reference "docker.io/library/nginx-1:latest": pull
+    access denied, repository does not exist or may require authorization: server message:
+    insufficient_scope: authorization failed
+```
