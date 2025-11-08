@@ -40,4 +40,4 @@
 
 # Tip II
 
-When we looked at distroless containers, they did not allow exec into the container for security reasons. There are debug images available for distroless that will enable you to open a shell session for troubleshooting purposes if you wish.
+**When we looked at distroless containers, they did not allow exec into the container for security reasons. There are debug images available for distroless that will enable you to open a shell session for troubleshooting purposes if you wish.**
