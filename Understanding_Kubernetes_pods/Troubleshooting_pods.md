@@ -68,5 +68,4 @@
     kubectl describe pod nginx-1
 ```
 
-Now, this gives us a wealth of information regarding the pod, and if you look at the events section,
-you will find a specific line that tells us what is wrong with the pod:
+Now, this gives us a wealth of information regarding the pod, and if you look at the events section, you will find a specific line that tells us what is wrong with the pod:
