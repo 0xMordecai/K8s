@@ -9,4 +9,7 @@ spec:
   - image: nginx
     imagePullPolicy: IfNotPresent
     name: nginx
-    
+    resources:
+      limits:
+        memory: "200Mi"
+        
