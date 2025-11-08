@@ -54,3 +54,8 @@
 ```
 
 **Now, let’s try to get the pod and see for ourselves:**
+```shell
+    $ kubectl get pod nginx-1
+    NAME      READY   STATUS             RESTARTS   AGE
+    nginx-1   0/1     ImagePullBackOff   0          25s
+```
