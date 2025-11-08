@@ -4,3 +4,7 @@ metadata:
   labels:
     run: nginx
   name: nginx
+spec:
+  containers:
+  - image: nginx
+    imagePullPolicy: IfNotPresent
