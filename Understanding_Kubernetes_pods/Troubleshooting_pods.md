@@ -34,6 +34,12 @@
 ```
 **kubectl exec is an important command that helps us troubleshoot containers.**
 
-# Tip
+# Tip I
 
 **If you modify files or download packages within the container in `exec` mode, they will persist until the current pod is alive. Once the pod is gone, you will lose all changes. Therefore, it isn’t a great way of fixing issues. You should only diagnose problems using `exec`, bake the correct changes in a new image, and then redeploy it.**
+
+# Tip II
+
+When we looked at distroless containers, they did not allow exec into the
+container for security reasons. There are debug images available for distroless that will enable you to
+open a shell session for troubleshooting purposes if you wish.
