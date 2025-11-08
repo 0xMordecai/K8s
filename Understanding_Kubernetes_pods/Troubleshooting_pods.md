@@ -27,3 +27,8 @@
 ```
 
 **You can even run specific commands without opening a shell session. For example, we can perform the preceding operation with a single line, something like the following:**
+
+```shell
+    $ kubectl exec nginx -- ls /etc/nginx
+    conf.d fastcgi_params mime.types modules nginx.conf scgi_params uwsgi_params
+```
