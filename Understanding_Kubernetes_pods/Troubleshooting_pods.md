@@ -81,4 +81,5 @@
 
 # Tip IV
 
-**You can use `kubectl describe` for most Kubernetes resources. It should be the first command you use while troubleshooting issues.**
+**You can use `kubectl describe` for most Kubernetes resources. It should be the first command you use while `troubleshooting issues`.**
+
