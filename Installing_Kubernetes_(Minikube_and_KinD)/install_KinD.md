@@ -6,4 +6,4 @@
 
 **As `KinD` supports a `multi-node Kubernetes cluster`, you can use it for your development activities and also in your CI/CD pipelines. In fact, `KinD` redefines CI/CD pipelines as you don’t require a static Kubernetes environment to test your build. `KinD` is swift to boot up, which means you can integrate the bootstrapping of the `KinD` cluster, run and test your container builds within the cluster, and then destroy it all within your CI/CD pipeline. This gives development teams immense power and speed.**
 
-**Now, let’s bootstrap a multi-node KinD cluster. First, we need to create a KinD config file. The KinD config file is a simple YAML file where you can declare what configuration you want for each node. If we need to bootstrap a single control plane and three worker node clusters, we can add the following configuration:**
+**Now, let’s bootstrap a multi-node KinD cluster. First, we need to create a KinD `config` file. The KinD `config` file is a simple YAML file where you can declare what configuration you want for each node. If we need to bootstrap a single control plane and three worker node clusters, we can add the following configuration:**
