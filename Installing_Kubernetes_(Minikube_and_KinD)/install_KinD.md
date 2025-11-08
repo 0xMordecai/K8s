@@ -34,3 +34,5 @@
     kind-worker2         Ready    <none>          47s   v1.27.3
     kind-worker3         Ready    <none>          47s   v1.27.3
 ```
+
+Here, we can see four nodes in the cluster – one control plane and three workers
