@@ -5,3 +5,8 @@
 **While you need Docker to run `KinD`, `KinD` internally uses `containerd` as a container runtime instead of Docker. `Containerd` implements the container runtime interface; therefore, Kubernetes does not require any specialized components, such as dockershim, to interact with it. This means that `KinD` still works with Kubernetes since Docker isn’t supported anymore as a Kubernetes container runtime.**
 
 **As `KinD` supports a `multi-node Kubernetes cluster`, you can use it for your development activities and also in your CI/CD pipelines. In fact, `KinD` redefines CI/CD pipelines as you don’t require a static Kubernetes environment to test your build. `KinD` is swift to boot up, which means you can integrate the bootstrapping of the `KinD` cluster, run and test your container builds within the cluster, and then destroy it all within your CI/CD pipeline. This gives development teams immense power and speed.**
+
+Now, let’s bootstrap a multi-node KinD cluster. First, we need to create a KinD config file. The
+KinD config file is a simple YAML file where you can declare what configuration you want for
+each node. If we need to bootstrap a single control plane and three worker node clusters, we can add
+the following configuration:
