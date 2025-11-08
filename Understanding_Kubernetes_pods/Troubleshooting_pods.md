@@ -1,3 +1,3 @@
 # Troubleshooting pods
 
-**Similar to how we can browse logs from a container using docker logs, we can browse logs from a container within a Kubernetes pod using the kubectl logs command. If more than one container runs within the pod, we can specify the container’s name using the -c flag.**
+**Similar to how we can browse logs from a container using `docker logs`, we can browse logs from a container within a Kubernetes pod using the `kubectl logs` command. If more than one container runs within the pod, we can specify the container’s name using the `-c` flag.**
