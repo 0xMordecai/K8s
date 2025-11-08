@@ -69,6 +69,7 @@
 ```
 
 **Now, this gives us a wealth of information regarding the pod, and if you look at the events section, you will find a specific line that tells us what is wrong with the pod:**
+
 ```shell 
     Warning  Failed     60s (x4 over 2m43s)  kubelet            Failed to pull image "nginx-
     1": rpc error: code = Unknown desc = failed to pull and unpack image "docker.io/library/
