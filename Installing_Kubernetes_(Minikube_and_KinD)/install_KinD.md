@@ -17,3 +17,5 @@
     - role: worker
     - role: worker
 ```
+
+We can also have an HA configuration with multiple control planes using multiple node items with the control plane role. For now, let’s stick with a single control plane, three-worker node configuration.
