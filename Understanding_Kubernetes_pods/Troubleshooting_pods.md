@@ -9,3 +9,6 @@
     ...
     27.0.0.1 - - [08/Nov/2025:20:59:54 +0000] "GET / HTTP/1.1" 200 615 "-" "curl/8.5.0" "-"
 ```
+
+As the pod is running a single container, we need not specify the -c flag, so instead, you can use the
+following command:
