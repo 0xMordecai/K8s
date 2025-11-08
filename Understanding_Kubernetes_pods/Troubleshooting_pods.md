@@ -45,3 +45,5 @@
 # Tip III
 
 **By default, a container runs as the root user if you don’t specify the user within the Dockerfile while building the image. You can set a `runAsUser` attribute within your pod’s security context if you want to run your pod as a specific user, but this is not ideal. The best practice is to bake the user within the container image.**
+
+We’ve discussed troubleshooting running containers, but what if the containers fail to start for some reason?
