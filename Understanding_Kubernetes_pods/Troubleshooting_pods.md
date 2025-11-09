@@ -103,3 +103,6 @@
 ```
 
 **The pod is now running since we have fixed the image issue.**
+
+So far, we’ve managed to run containers using pods, but pods are very powerful resources that help
+you manage containers. Kubernetes pods provide probes to ensure your application’s reliability.
