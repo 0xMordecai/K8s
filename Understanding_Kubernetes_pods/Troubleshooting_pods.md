@@ -85,7 +85,12 @@
 
 **Since we know that the image does not exist, let’s change the image to a valid one. We must `delete the pod` and `recreate it` with the correct image to do that.**
 
-To delete the pod, run the following command:
+**To `delete the pod`, run the following command:**
 ```shell
     kubectl delete pod nginx-1
+```
+
+**To recreate the pod, run the following command:**
+```shell
+    kubectl run nginx-1 --image=nginx
 ```
