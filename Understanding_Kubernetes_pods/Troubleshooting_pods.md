@@ -94,3 +94,10 @@
 ```shell
     kubectl run nginx-1 --image=nginx
 ```
+
+**Now, let’s get the pod; it should run as follows:**
+```shell
+    $ kubectl get pod nginx-1
+    NAME      READY   STATUS    RESTARTS   AGE
+    nginx-1   1/1     Running   0          42s
+```
