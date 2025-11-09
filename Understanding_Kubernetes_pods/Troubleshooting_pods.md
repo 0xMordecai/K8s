@@ -101,3 +101,5 @@
     NAME      READY   STATUS    RESTARTS   AGE
     nginx-1   1/1     Running   0          42s
 ```
+
+**The pod is now running since we have fixed the image issue.**
