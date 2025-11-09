@@ -83,4 +83,4 @@
 
 **You can use `kubectl describe` for most Kubernetes resources. It should be the first command you use while `troubleshooting issues`.**
 
-**Since we know that the image does not exist, let’s change the image to a valid one. We must delete the pod and recreate it with the correct image to do that.**
+**Since we know that the image does not exist, let’s change the image to a valid one. We must `delete the pod` and `recreate it` with the correct image to do that.**
