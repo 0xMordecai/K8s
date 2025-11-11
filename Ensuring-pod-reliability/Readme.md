@@ -12,3 +12,7 @@
 
 # Liveness probe
 **`Liveness probes` are used to check whether a container is running and healthy. `The probe checks the health of the containers periodically. If a container is found to be unhealthy, the liveness probe will kill the container. If you’ve set the restartPolicy field of your pod to Always or OnFailure, Kubernetes will restart the container`. Therefore, it improves the service’s reliability by detecting deadlocks and ensuring the containers are running instead of just reporting as running.**
+
+# Probes in action
+Let’s improve the last manifest and add some probes to create the following nginx-probe.yaml
+manifest file:
