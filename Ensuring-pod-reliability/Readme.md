@@ -39,3 +39,9 @@
       periodSeconds: 3
   restartPolicy: Always
 ```
+
+The manifest file contains all three probes:
+•
+•
+•
+•
