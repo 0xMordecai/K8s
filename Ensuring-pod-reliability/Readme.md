@@ -8,3 +8,8 @@
 **Kubernetes uses `startup probes` to check whether the application has started. `You can use startup probes on applications that start slow or those you don’t know how long it might take to start`. While the startup probe is active, it disables other probes so that they don’t interfere with its operation. As the application has not started until the startup probe reports it, there is no point in having any other probes active.**
 
 # Readiness probe
+Readiness probes ascertain whether a container is ready to serve requests. They differ from startup
+probes because, unlike the startup probe, which only checks whether the application has started, the
+readiness probe ensures that the container can begin to process requests. A pod is ready when all the
+containers of the pod are ready. Readiness probes ensure that no traffic is sent to a pod if the pod is
+not ready. Therefore, it allows for a better user experience.
