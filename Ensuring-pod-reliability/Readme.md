@@ -5,8 +5,4 @@
 ![alt text](figure.png)
 
 # Startup probe
-Kubernetes uses startup probes to check whether the application has started. You can use startup
-probes on applications that start slow or those you don’t know how long it might take to start. While
-the startup probe is active, it disables other probes so that they don’t interfere with its operation. As
-the application has not started until the startup probe reports it, there is no point in having any other
-probes active.
+Kubernetes uses startup probes to check whether the application has started. You can use startup probes on applications that start slow or those you don’t know how long it might take to start. While the startup probe is active, it disables other probes so that they don’t interfere with its operation. As the application has not started until the startup probe reports it, there is no point in having any other probes active.
