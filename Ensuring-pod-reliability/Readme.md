@@ -15,3 +15,6 @@
 
 # Probes in action
 **Let’s improve the last manifest and add some probes to create the following `nginx-probe.yaml` manifest file:**
+
+```yaml
+```
