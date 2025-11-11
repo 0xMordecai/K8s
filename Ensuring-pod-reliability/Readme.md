@@ -41,9 +41,7 @@
 ```
 
 The manifest file contains all three probes:
-• The startup probe checks whether the /usr/share/nginx/html/index.html file exists.
-It will continue checking it 30 times at an interval of 10 seconds until one of them succeeds.
-Once it detects the file, the startup probe will stop probing further.
+• The startup probe checks whether the /usr/share/nginx/html/index.html file exists.It will continue checking it 30 times at an interval of 10 seconds until one of them succeeds.Once it detects the file, the startup probe will stop probing further.
 •
 •
 •
