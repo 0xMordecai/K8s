@@ -11,8 +11,4 @@
 **`Readiness probes` ascertain whether a container is ready to serve requests. `They differ from startup probes because, unlike the startup probe, which only checks whether the application has started, the readiness probe ensures that the container can begin to process requests`. A pod is ready when all the containers of the pod are ready. Readiness probes ensure that no traffic is sent to a pod if the pod is not ready. Therefore, it allows for a better user experience.**
 
 # Liveness probe
-Liveness probes are used to check whether a container is running and healthy. The probe checks the
-health of the containers periodically. If a container is found to be unhealthy, the liveness probe will
-kill the container. If you’ve set the restartPolicy field of your pod to Always or OnFailure,
-Kubernetes will restart the container. Therefore, it improves the service’s reliability by detecting
-deadlocks and ensuring the containers are running instead of just reporting as running.
+Liveness probes are used to check whether a container is running and healthy. The probe checks the health of the containers periodically. If a container is found to be unhealthy, the liveness probe will kill the container. If you’ve set the restartPolicy field of your pod to Always or OnFailure, Kubernetes will restart the container. Therefore, it improves the service’s reliability by detecting deadlocks and ensuring the containers are running instead of just reporting as running.
