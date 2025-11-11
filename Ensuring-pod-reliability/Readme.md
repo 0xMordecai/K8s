@@ -4,3 +4,4 @@
 **The following diagram depicts all three probes graphically:**
 ![alt text](figure.png)
 
+# Startup probe
