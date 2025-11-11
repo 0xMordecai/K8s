@@ -9,3 +9,5 @@
 
 # Readiness probe
 **`Readiness probes` ascertain whether a container is ready to serve requests. `They differ from startup probes because, unlike the startup probe, which only checks whether the application has started, the readiness probe ensures that the container can begin to process requests`. A pod is ready when all the containers of the pod are ready. Readiness probes ensure that no traffic is sent to a pod if the pod is not ready. Therefore, it allows for a better user experience.**
+
+# Liveness probe
