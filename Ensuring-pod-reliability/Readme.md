@@ -43,8 +43,7 @@
 The manifest file contains all three probes:
 • The startup probe checks whether the /usr/share/nginx/html/index.html file exists.It will continue checking it 30 times at an interval of 10 seconds until one of them succeeds.Once it detects the file, the startup probe will stop probing further.
 
-•The readiness probe checks whether there is a listener on port 80 and responds with HTTP 2xx
-– 3xx on path /. It waits for 5 seconds initially and then checks the pod every 5 seconds.
-If it gets a 2xx – 3xx response, it will report the container as ready and accept requests.
+•The readiness probe checks whether there is a listener on port 80 and responds with HTTP 2xx – 3xx on path /. It waits for 5 seconds initially and then checks the pod every 5 seconds. If it gets a 2xx – 3xx response, it will report the container as ready and accept requests.
+
 •
 •
