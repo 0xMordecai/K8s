@@ -46,5 +46,4 @@
 
 **• The readiness probe checks whether there is a listener on port 80 and responds with HTTP 2xx – 3xx on path /. It waits for 5 seconds initially and then checks the pod every 5 seconds. If it gets a 2xx – 3xx response, it will report the container as ready and accept requests.**
 
-• The liveness probe checks whether the pod responds with HTTP 2xx – 3xx on port 80 and path /. It waits for 5 seconds initially and probes the container every 3 seconds. Suppose, during a check, that it finds the pod not responding for failureThreshold times (this defaults to 3). In that case, it will kill the container, and the kubelet will take appropriate action
-based on the pod’s restartPolicy field.
+**• The liveness probe checks whether the pod responds with HTTP 2xx – 3xx on port 80 and path /. It waits for 5 seconds initially and probes the container every 3 seconds. Suppose, during a check, that it finds the pod not responding for failureThreshold times (this defaults to 3). In that case, it will kill the container, and the kubelet will take appropriate action based on the pod’s restartPolicy field.**
