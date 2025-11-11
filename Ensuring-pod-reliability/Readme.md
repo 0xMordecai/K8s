@@ -17,4 +17,25 @@
 **Let’s improve the last manifest and add some probes to create the following `nginx-probe.yaml` manifest file:**
 
 ```yaml
+ ...
+    startupProbe:
+      exec:
+        command:
+        - cat
+        - /usr/share/nginx/html/index.html
+      failureThreshold: 30
+      periodSeconds: 10
+    readinessProbe:
+      httpGet:
+        path: /
+        port: 80
+      initialDelaySeconds: 5
+      periodSeconds: 5
+    livenessProbe:
+      httpGet:
+        path: /
+        port: 80
+      initialDelaySeconds: 5
+      periodSeconds: 3
+  restartPolicy: Always
 ```
