@@ -16,4 +16,9 @@ spec:
       requests:
         memory: "100Mi"
         cpu: "100m"
+    startupPrope:
+      exec:
+        command:
+        - cat
+        - /usr/share/nginx/html/index.html
   restartPolicy: Always
