@@ -57,3 +57,7 @@
     nginx   0/1     Running             0          11s
     nginx   1/1     Running             0          12s
 ```
+
+As we can see, the pod is quickly ready from the running state. It takes approximately 10 seconds for
+that to happen as the readiness probe kicks in 10 seconds after the pod starts. Then, the liveness probe
+keeps monitoring the health of the pod.
