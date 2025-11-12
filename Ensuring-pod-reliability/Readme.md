@@ -75,7 +75,4 @@
 **So, while we watch the pod, the initial delete is only detected after 9 seconds. That’s because of the liveness probe. `It tries for 9 seconds, three times periodSeconds, since failureThreshold defaults to 3, before declaring the pod as unhealthy and killing the container`. No sooner does it kill the container than the kubelet restarts it as the pod’s `restartPolicy` field is set to Always. Then, we see the startup and readiness probes kicking in, and soon, the pod gets ready.**
 
 # Tip
-Using readiness and liveness probes will help provide a better user experience, as no requests
-go to pods that are not ready to process any request. If your application does not respond
-appropriately, it will replace the container. If multiple pods are running to serve the request,
-your service is exceptionally resilient.
+Using readiness and liveness probes will help provide a better user experience, as no requests go to pods that are not ready to process any request. If your application does not respond appropriately, it will replace the container. If multiple pods are running to serve the request, your service is exceptionally resilient.
