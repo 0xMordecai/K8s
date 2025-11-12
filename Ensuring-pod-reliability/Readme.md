@@ -49,3 +49,6 @@
 **• The `liveness probe` checks whether the pod responds with HTTP 2xx – 3xx on `port 80` and `path /`. It waits for 5 seconds initially and probes the container every 3 seconds. Suppose, during a check, that it finds the pod not responding for `failureThreshold` times (this defaults to 3). In that case, it will kill the container, and the kubelet will take appropriate action based on the pod’s `restartPolicy` field.**
 
 **Let’s apply the YAML file and watch the pods come to life by using the following command:**
+```yaml
+
+```
