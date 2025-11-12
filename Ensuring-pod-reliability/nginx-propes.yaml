@@ -23,4 +23,8 @@ spec:
         - /usr/share/nginx/html/index.html
       failureThreshold: 30
       periodSecond: 10
+    readinessProbe:
+      httpGet:
+        path: /
+        port: 80
   restartPolicy: Always
