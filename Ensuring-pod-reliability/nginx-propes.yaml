@@ -33,5 +33,6 @@ spec:
       httpGet:
         path: /
         port: 80
-        
+      initialDelaySeconds: 5
+      periodSeconds: 3
   restartPolicy: Always
