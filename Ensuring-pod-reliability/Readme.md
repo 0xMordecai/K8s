@@ -62,7 +62,7 @@
 
 **Now, let’s do something that will break the liveness check. Imagine someone getting a shell to the container and deleting some important files. `How do you think the liveness probe will react?` Let’s have a look.**
 
-**Let’s delete the /usr/share/nginx/html/index.html file from the container and then check how the container behaves using the following command:**
+**Let’s delete the `/usr/share/nginx/html/index.html` file from the container and then check how the container behaves using the following command:**
 ```shell
     $ kubectl exec -it nginx -- rm -rf /usr/share/nginx/html/index.html && \
     kubectl get pod nginx -w
