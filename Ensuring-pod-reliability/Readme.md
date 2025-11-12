@@ -61,3 +61,12 @@
 **As we can see, `the pod is quickly ready from the running state`. It takes approximately 10 seconds for that to happen as the readiness probe kicks in 10 seconds after the pod starts. Then, `the liveness probe keeps monitoring the health of the pod`.**
 
 **Now, let’s do something that will break the liveness check. Imagine someone getting a shell to the container and deleting some important files. `How do you think the liveness probe will react?` Let’s have a look.**
+
+```shell
+    $ kubectl exec -it nginx -- rm -rf /usr/share/nginx/html/index.html && \
+    kubectl get pod nginx -w
+    NAME    READY   STATUS    RESTARTS     AGE
+    nginx   1/1     Running   0            2m5s
+    nginx   0/1     Running   1 (2s ago)   2m17s
+    nginx   1/1     Running   1 (8s ago)   2m22s
+```
