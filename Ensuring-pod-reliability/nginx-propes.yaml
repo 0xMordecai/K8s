@@ -21,4 +21,6 @@ spec:
         command:
         - cat
         - /usr/share/nginx/html/index.html
+      failureThreshold: 30
+      periodSecond: 10
   restartPolicy: Always
