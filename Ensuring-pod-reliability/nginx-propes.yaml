@@ -16,13 +16,13 @@ spec:
       requests:
         memory: "100Mi"
         cpu: "100m"
-    startupPrope:
+    startupProbe:
       exec:
         command:
         - cat
         - /usr/share/nginx/html/index.html
       failureThreshold: 30
-      periodSecond: 10
+      periodSeconds: 10
     readinessProbe:
       httpGet:
         path: /
