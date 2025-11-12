@@ -27,6 +27,11 @@ spec:
       httpGet:
         path: /
         port: 80
-        initialDelaySeconds: 5
-        periodSeconds: 5
+      initialDelaySeconds: 5
+      periodSeconds: 5
+    livenessProbe:
+      httpGet:
+        path: /
+        port: 80
+        
   restartPolicy: Always
