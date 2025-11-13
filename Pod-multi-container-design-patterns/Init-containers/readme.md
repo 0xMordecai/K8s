@@ -86,3 +86,8 @@ nginx   0/1     Init:0/1          0   
 nginx   0/1     PodInitializing   0          1s
 nginx   1/1     Running           0          3s
 ```
+
+Initially, we can see that the nginx pod shows a status of Init:0/1. This means that 0 out of 1
+init containers have started initializing. After some time, we can see that the pod reports its status,
+PodInitializing, which means that the init containers have started running. The pod reports
+a running status once the init containers have run successfully.
