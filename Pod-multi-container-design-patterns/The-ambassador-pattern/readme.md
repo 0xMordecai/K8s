@@ -5,7 +5,7 @@
 
 **1 • You can change the application code and use config maps and secrets (more on these later) to inject the database connection details into the environment variable.**
 
-**1 •`You can keep using the existing code and use a second container as a TCP proxy to the Redis database`. The TCP proxy will link with the config map and secrets and contain the Redis database’s connection details.**
+**2 •`You can keep using the existing code and use a second container as a TCP proxy to the Redis database`. The TCP proxy will link with the config map and secrets and contain the Redis database’s connection details.**
 
 ## **Tip**
 **The ambassador pattern helps developers focus on the application without worrying about the configuration details. Consider using it if you want to decouple application development from config management.**
