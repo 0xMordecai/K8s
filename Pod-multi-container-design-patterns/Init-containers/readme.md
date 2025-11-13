@@ -41,3 +41,11 @@ spec:
   - name: html-volume
     emptyDir: {}
 ```
+
+If we look at the spec section of the manifest file, we’ll see the following:
+•
+•
+•
+•
+•
+•
