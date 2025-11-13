@@ -4,3 +4,5 @@
 **The idea of the config map is to decouple the application with configuration and to externalize configuration at a Kubernetes level. It is similar to using a properties file, for example, to define the environment-specific configuration.**
 
 **The following diagram explains this beautifully:**
+
+![alt text](imgae.png)
