@@ -1,1 +1,2 @@
 # Config map
+A config map contains key-value pairs that we can use for various purposes, such as defining environment-specific properties or injecting an external variable at container startup or during runtime.
