@@ -102,4 +102,4 @@ nginx   1/1     Running           0  �
 
 **Here, we can see the example domain response from our web server. This means that the init container worked perfectly fine.**
 
-As you may have understood by now, the life cycle of init containers ends before the primary containers start, and a pod can contain one or more main containers. So, let’s look at a few design patterns we can use in the main container.
+**`As you may have understood by now, the life cycle of init containers ends before the primary containers start, and a pod can contain one or more main containers. So, let’s look at a few design patterns we can use in the main container.`**
