@@ -77,3 +77,12 @@ spec:
 **`volumes.emptyDir`: This defines an `emptyDir` volume. It is similar to a `tmpfs` volume in Docker. Therefore, it is not persistent and lasts just for the container’s lifetime.**
 
 **So, let’s go ahead and apply the manifest and watch the pod come to life using the following commands:**
+
+```shell
+kubectl delete pod nginx && kubectl apply -f nginx-init.yaml && \
+kubectl get pod nginx -w
+NAME    READY   STATUS            RESTARTS   AGE
+nginx   0/1     Init:0/1          0          0s
+nginx   0/1     PodInitializing   0          1s
+nginx   1/1     Running           0          3s
+```
