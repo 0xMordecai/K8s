@@ -5,4 +5,4 @@
 
 **The following diagram explains this beautifully:**
 
-![alt text](imgae.png)
+![alt text](image.png)
