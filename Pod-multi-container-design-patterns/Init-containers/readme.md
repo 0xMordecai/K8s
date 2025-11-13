@@ -8,3 +8,5 @@
 **• You can add a startup delay**
 
 **• You can generate configuration dynamically, such as for containers that want to dynamically connect to some other pod that it is not aware of during build time but should be during runtime**
+
+# Tip
