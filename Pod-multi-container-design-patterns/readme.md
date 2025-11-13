@@ -1,2 +1,2 @@
 # Pod multi-container design patterns
-**You can run multiple containers in pods in two ways – running a container as an init container or running a container as a helper container to the main container. We’ll explore both approaches in the following subsections.**
+**You can run multiple containers in pods in two ways – running a container as an `init container` or running a container as a `helper container` to the main container. We’ll explore both approaches in the following subsections.**
