@@ -69,9 +69,7 @@ this case, 'mkdir -p /usr/share/nginx/html && wget -O /usr/share/
 nginx/html/index.html http://example.com' will download the content of
 example.com to the /usr/share/nginx/html directory.
 
-initContainers.volumeMounts: We will mount the same volume we defined in
-nginx-container on this container. So, anything we save in this volume will automatically
-appear in nginx-container.
+initContainers.volumeMounts: We will mount the same volume we defined in nginx-container on this container. So, anything we save in this volume will automatically appear in nginx-container.
 
 initContainers.volumeMounts.mountPath: This defines the path to mount the volume on, which is /usr/share/nginx/html in this case.
 
