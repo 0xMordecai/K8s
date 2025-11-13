@@ -54,4 +54,4 @@ spec:
 
 **• `containers.volumeMounts.mountPath`: This defines the path to mount the volume on, which is `/usr/share/nginx/html` in this case. We will share this volume with the init container so that when the init container downloads the `index.html` file from `example. com`, this directory will contain the same file.**
 
-• containers.volumeMounts.name: This is the name of the volume, which is html-volume in this case.
+**• `containers.volumeMounts.name`: This is the name of the volume, which is `html-volume` in this case.**
