@@ -49,8 +49,7 @@ If we look at the spec section of the manifest file, we’ll see the following:
 
 • containers.image: This is the container image, which is nginx in this case.
 
-• containers.volumeMounts: This defines a list of volumes that should be mounted to
-the container. It is similar to the volumes we read about in Chapter 4, Creating and Managing
-Container Images.
+• containers.volumeMounts: This defines a list of volumes that should be mounted to the container. It is similar to the volumes we read about in Chapter 4, Creating and Managing Container Images.
+
 •
 •
