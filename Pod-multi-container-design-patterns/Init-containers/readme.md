@@ -11,3 +11,5 @@
 
 # Tip
 **Use init containers only as a last resort, as they slow down the startup time of your containers. `Try to bake the configuration within your container image or customize it`.**
+
+**Now, let’s look at an example to see init containers in action.**
