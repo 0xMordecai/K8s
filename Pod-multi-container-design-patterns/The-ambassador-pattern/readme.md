@@ -3,4 +3,4 @@
 
 Now, there are two approaches you can take:
 
-1 • You can change the application code and use config maps and secrets (more on these later) to inject the database connection details into the environment variable.
+**1 • You can change the application code and use config maps and secrets (more on these later) to inject the database connection details into the environment variable.**
