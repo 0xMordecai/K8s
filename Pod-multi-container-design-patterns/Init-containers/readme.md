@@ -14,4 +14,4 @@
 
 **Now, let’s look at an example to see init containers in action.**
 
-**Let’s serve the example.com website from our nginx web server. We will get the example.com web page and save it as index.html in the nginx default HTML directory before starting nginx. Access the manifest file, nginx-init.yaml, which should contain the following:**
+**Let’s serve the `example.com` website from our nginx web server. We will get the `example.com` web page and save it as index.html in the nginx default HTML directory before starting nginx. Access the manifest file, nginx-init.yaml, which should contain the following:**
