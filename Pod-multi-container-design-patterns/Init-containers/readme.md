@@ -56,8 +56,7 @@ spec:
 
 **• `containers.volumeMounts.name`: This is the name of the volume, which is `html-volume` in this case.**
 
-initContainers: This section defines one or more init containers that run before the
-main containers.
+initContainers: This section defines one or more init containers that run before the main containers.
 
 initContainers.name: This is the init container’s name, which is init-nginx in this case.
 
