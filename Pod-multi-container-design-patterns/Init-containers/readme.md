@@ -17,4 +17,27 @@
 **Let’s serve the `example.com` website from our nginx web server. We will get the `example.com` web page and save it as `index.html` in the nginx default HTML directory before starting `nginx`. Access the manifest file, `nginx-init.yaml`, which should contain the following:**
 
 ```yaml
+    apiVersion: v1
+    kind: Pod
+    metadata:
+    name: nginx
+    labels:
+        app: nginx
+    spec:
+    containers:
+    - name: nginx-container
+        image: nginx
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html
+        name: html-volume
+    initContainers:
+    - name: init-nginx
+        image: busybox:1.28
+        command: ['sh', '-c', 'mkdir -p /usr/share/nginx/html && wget -O /usr/share/nginx/html/index.html http://example.com']
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html
+        name: html-volume
+    volumes:
+    - name: html-volume
+        emptyDir: {}
 ```
