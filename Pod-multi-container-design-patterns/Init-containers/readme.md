@@ -93,3 +93,5 @@ nginx   1/1     Running           0  �
 ```shell
     kubectl port-forward nginx 8080:80
 ```
+
+Open a duplicate Terminal and try to curl the localhost on port 8080 by using the following command:
