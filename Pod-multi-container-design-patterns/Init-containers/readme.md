@@ -42,8 +42,9 @@ spec:
     emptyDir: {}
 ```
 
-If we look at the spec section of the manifest file, we’ll see the following:
-• containers: This section defines one or more containers that form the pod.
+**If we look at the spec section of the manifest file, we’ll see the following:**
+
+**• containers: This section defines one or more containers that form the pod.**
 
 • containers.name: This is the container’s name, which is nginx-container in this case.
 
