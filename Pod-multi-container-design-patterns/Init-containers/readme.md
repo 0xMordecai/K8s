@@ -66,6 +66,6 @@ spec:
 
 **• `initContainers.volumeMounts`: We will mount the same volume we defined in `nginx-container` on this container. So, anything we save in this volume will automatically appear in `nginx-container`.**
 
-• initContainers.volumeMounts.mountPath: This defines the path to mount the volume on, which is /usr/share/nginx/html in this case.
+**• `initContainers.volumeMounts.mountPath`: This defines the path to mount the volume on, which is `/usr/share/nginx/html` in this case.**
 
 • initContainers.volumeMounts.name: This is the name of the volume, which is html-volume in this case.
