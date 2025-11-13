@@ -55,3 +55,25 @@ spec:
 **• `containers.volumeMounts.mountPath`: This defines the path to mount the volume on, which is `/usr/share/nginx/html` in this case. We will share this volume with the init container so that when the init container downloads the `index.html` file from `example. com`, this directory will contain the same file.**
 
 **• `containers.volumeMounts.name`: This is the name of the volume, which is `html-volume` in this case.**
+
+initContainers: This section defines one or more init containers that run before the
+main containers.
+
+initContainers.name: This is the init container’s name, which is init-nginx in this case.
+
+initContainers.image: This is the init container image, which is busybox:1.28 in
+this case.
+
+initContainers.command: This is the command that the busybox should execute. In
+this case, 'mkdir -p /usr/share/nginx/html && wget -O /usr/share/
+nginx/html/index.html http://example.com' will download the content of
+example.com to the /usr/share/nginx/html directory.
+
+initContainers.volumeMounts: We will mount the same volume we defined in
+nginx-container on this container. So, anything we save in this volume will automatically
+appear in nginx-container.
+
+initContainers.volumeMounts.mountPath: This defines the path to mount the
+volume on, which is /usr/share/nginx/html in this case.
+
+initContainers.volumeMounts.name: This is the name of the volume, which is html-volume in this case.
