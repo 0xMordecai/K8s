@@ -70,7 +70,7 @@ spec:
 
 **• `initContainers.volumeMounts.name`: This is the name of the volume, which is `html-volume` in this case.**
 
-volumes: This section defines one or more volumes associated with the pod’s containers.
+**volumes: This section defines one or more volumes associated with the pod’s containers.**
 
 volumes.name: This is the volume’s name, which is html-volume in this case.
 
