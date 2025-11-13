@@ -43,16 +43,3 @@ You create a small helper container (the **ambassador**):
 * The ambassador forwards that traffic to the real Redis database running on the host machine or somewhere else.
 
 So the ambassador acts like a **bridge or representative** between the app container and the real Redis.
-
----
-
-### **Summary (super simple)**
-
-> Your old app expects the database at `localhost`.
-> When you put it in a container, localhost no longer points to the database.
->
-> So you add an *ambassador container* that pretends to be the database on localhost and forwards the traffic to the real one.
-
----
-
-If you want, I can draw a diagram of how the ambassador pattern works.
