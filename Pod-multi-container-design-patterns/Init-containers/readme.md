@@ -10,3 +10,5 @@
 **• You can generate configuration dynamically, such as for containers that want to dynamically connect to some other pod that it is not aware of during build time but should be during runtime**
 
 # Tip
+Use init containers only as a last resort, as they hamper the startup time of your containers.
+Try to bake the configuration within your container image or customize it.
