@@ -48,7 +48,7 @@ spec:
 
 **• `containers.name`: This is the container’s name, which is `nginx-container` in this case.**
 
-• containers.image: This is the container image, which is nginx in this case.
+**• `containers.image`: This is the container image, which is nginx in this case.**
 
 • containers.volumeMounts: This defines a list of volumes that should be mounted to the container. It is similar to the volumes we read about in `Creating and Managing Container Images`.
 
