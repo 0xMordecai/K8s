@@ -74,4 +74,4 @@ spec:
 
 **`volumes.name`: This is the volume’s name, which is `html-volume` in this case.**
 
-volumes.emptyDir: This defines an emptyDir volume. It is similar to a tmpfs volume in Docker. Therefore, it is not persistent and lasts just for the container’s lifetime.
+**`volumes.emptyDir`: This defines an `emptyDir` volume. It is similar to a `tmpfs` volume in Docker. Therefore, it is not persistent and lasts just for the container’s lifetime.**
