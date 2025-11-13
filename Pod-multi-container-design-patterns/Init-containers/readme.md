@@ -62,7 +62,7 @@ spec:
 
 **• `initContainers.image`: This is the init container image, which is `busybox:1.28 `in this case.**
 
-**• initContainers.command: This is the command that the busybox should execute. In this case, 'mkdir -p /usr/share/nginx/html && wget -O /usr/share/ nginx/html/index.html http://example.com' will download the content of example.com to the /usr/share/nginx/html directory.**
+**• `initContainers.command`: This is the command that the busybox should execute. In this case, `'mkdir -p /usr/share/nginx/html && wget -O /usr/share/ nginx/html/index.html http://example.com'` will download the content of `example.com` to the `/usr/share/nginx/html` directory.**
 
 • initContainers.volumeMounts: We will mount the same volume we defined in nginx-container on this container. So, anything we save in this volume will automatically appear in nginx-container.
 
