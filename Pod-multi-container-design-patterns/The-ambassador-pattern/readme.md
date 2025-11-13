@@ -3,9 +3,9 @@
 
 ### **What the text is saying**
 
-The `Ambassador Pattern` is named after a real ambassador — someone who represents their country in another country.
+The **Ambassador Pattern** is named after a real ambassador — someone who represents their country in another country.
 
-In software, an `ambassador` works like a *representative* or *proxy* for your application.
+In software, an **ambassador** works like a *representative* or *proxy* for your application.
 
 ---
 
