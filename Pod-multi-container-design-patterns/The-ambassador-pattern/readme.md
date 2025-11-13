@@ -5,6 +5,4 @@
 
 **1 • You can change the application code and use config maps and secrets (more on these later) to inject the database connection details into the environment variable.**
 
-•You can keep using the existing code and use a second container as a TCP proxy to the Redis
-database. The TCP proxy will link with the config map and secrets and contain the Redis
-database’s connection details.
+•You can keep using the existing code and use a second container as a TCP proxy to the Redis database. The TCP proxy will link with the config map and secrets and contain the Redis database’s connection details.
