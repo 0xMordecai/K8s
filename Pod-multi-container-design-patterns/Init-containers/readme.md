@@ -95,3 +95,7 @@ nginx   1/1     Running           0  �
 ```
 
 **Open a duplicate Terminal and try to `curl` the localhost on port `8080` by using the following command:**
+```shell
+    curl localhost:8080
+        <title>Example Domain</title>
+```
