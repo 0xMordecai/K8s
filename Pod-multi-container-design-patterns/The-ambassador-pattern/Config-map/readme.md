@@ -7,4 +7,4 @@
 
 ![alt text](image.png)
 
-We will use ConfigMap to define the connection properties of the external Redis database within the ambassador container.
+**We will use `ConfigMap` to define the connection properties of the external Redis database within the ambassador container.**
