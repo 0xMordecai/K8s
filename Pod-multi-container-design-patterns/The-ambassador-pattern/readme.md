@@ -11,4 +11,4 @@
 **The ambassador pattern helps developers focus on the application without worrying about the configuration details. Consider using it if you want to decouple application development from config management.**
 
 **The second approach solves our problem if we wish to do a `like-for-like migration`. We can use `config maps` to define the environment-specific configuration without changing the application code. The following diagram shows this approach:**
-![alt text](image.png)
+![alt text](imge.png)
