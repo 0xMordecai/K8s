@@ -63,3 +63,5 @@
     NAME       STATUS   ROLES           AGE     VERSION
     minikube   Ready    control-plane   2m25s   v1.26.3
 ```
+
+Here, we can see that it is a single-node Kubernetes cluster running version v1.26.3. Kubernetes is now up and running!
