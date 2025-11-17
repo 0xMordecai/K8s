@@ -53,7 +53,7 @@
     kubectl <verb> <resource type> <resource name> [--flags]
 ```
 
-Here, we have the following:
+**Here, we have the following:**
 
 **• verb: The action to perform – for example, get, apply, delete, list, patch, run,and so on**
 
