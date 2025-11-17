@@ -30,5 +30,7 @@
 
 **Check if there is existing Docker contexts**
 ```shell
-docker context ls
+    docker context ls
 ```
+
+set Docker context to `default` to avoid problems running minikube
