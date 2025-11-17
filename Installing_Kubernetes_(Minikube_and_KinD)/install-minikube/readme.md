@@ -59,5 +59,7 @@
 
 **Let’s use kubectl to get nodes and check whether our cluster is ready to run our containers**
 ```shell
-    kubectl get nodes
+    $ kubectl get nodes
+    NAME       STATUS   ROLES           AGE     VERSION
+    minikube   Ready    control-plane   2m25s   v1.26.3
 ```
