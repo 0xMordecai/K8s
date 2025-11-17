@@ -44,4 +44,6 @@
 ```
 
 **Let’s use kubectl to get nodes and check whether our cluster is ready to run our containers**
-kubectl get nodes
+```shell
+    kubectl get nodes
+```
