@@ -40,5 +40,5 @@
 
 **Finally, we can bootstrap a `Minikube` cluster using the following command:**
 ```shell
-
+    minikube start --driver=docker
 ```
