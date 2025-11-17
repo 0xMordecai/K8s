@@ -43,5 +43,5 @@
     minikube start --driver=docker
 ```
 
-let’s use kubectl to get nodes and check whether our cluster is ready to run our containers
+**Let’s use kubectl to get nodes and check whether our cluster is ready to run our containers**
 kubectl get nodes
