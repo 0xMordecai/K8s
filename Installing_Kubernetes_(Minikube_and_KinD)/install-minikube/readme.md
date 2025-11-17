@@ -73,5 +73,4 @@
     $ minikube stop
 ```
 
-Now that we have removed Minikube, let’s look at another exciting tool for creating a multi-node
-Kubernetes cluster.
+**Now that we have removed Minikube, let’s look at another exciting tool for creating a multi-node Kubernetes cluster.**
