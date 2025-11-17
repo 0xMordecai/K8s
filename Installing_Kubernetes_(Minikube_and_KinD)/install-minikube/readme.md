@@ -34,3 +34,6 @@
 ```
 
 **We will set Docker context to `default` to avoid problems running minikube**
+```shell
+    docker context use default
+```
