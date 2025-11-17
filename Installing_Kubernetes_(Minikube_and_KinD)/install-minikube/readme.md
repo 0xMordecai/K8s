@@ -57,6 +57,6 @@ Here, we have the following:
 
 • verb: The action to perform – for example, get, apply, delete, list, patch, run,and so on
 
-• resource type: The Kubernetes resource to manage, such as node, pod, deployment,service, and so on
+**• resource type: The Kubernetes resource to manage, such as node, pod, deployment,service, and so on**
 
 **• resource name: The name of the resource to manage**
