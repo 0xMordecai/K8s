@@ -17,3 +17,5 @@
 ```shell
     kubectl version --client
 ```
+
+Since kubectl was installed successfully, you must download the minikube binary and then move it to your system path using the following commands:
