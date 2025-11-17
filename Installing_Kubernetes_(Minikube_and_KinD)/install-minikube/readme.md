@@ -43,10 +43,6 @@
     minikube start --driver=docker
 ```
 
-**Let’s use kubectl to get nodes and check whether our cluster is ready to run our containers**
-```shell
-    kubectl get nodes
-```
 
 **As `Minikube` is now up and running, we will use the `kubectl command-line` utility to interact with the Kube API server to manage Kubernetes resources. The `kubectl commands` have a standard structure and are self-explanatory in most cases. They are structured as follows:**
 ```shell
@@ -60,3 +56,8 @@
 **• `resource type`: The Kubernetes resource to manage, such as `node`, `pod`, `deployment`,`service`, and so on**
 
 **• `resource name`: The name of the resource to manage**
+
+**Let’s use kubectl to get nodes and check whether our cluster is ready to run our containers**
+```shell
+    kubectl get nodes
+```
