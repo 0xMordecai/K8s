@@ -33,4 +33,4 @@
     docker context ls
 ```
 
-set Docker context to `default` to avoid problems running minikube
+We will set Docker context to `default` to avoid problems running minikube
