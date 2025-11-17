@@ -59,4 +59,4 @@
 
 **• `resource type`: The Kubernetes resource to manage, such as `node`, `pod`, `deployment`,`service`, and so on**
 
-**• resource name: The name of the resource to manage**
+**• `resource name`: The name of the resource to manage**
