@@ -13,7 +13,7 @@
 ```shell
     sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
-Now, let’s check whether kubectl has been successfully installed by running the following command:
+**Now, let’s check whether kubectl has been successfully installed by running the following command:**
 ```shell
     kubectl version --client
 ```
