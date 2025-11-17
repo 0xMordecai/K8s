@@ -37,3 +37,5 @@
 ```shell
     docker context use default
 ```
+
+Finally, we can bootstrap a Minikube cluster using the following command:
