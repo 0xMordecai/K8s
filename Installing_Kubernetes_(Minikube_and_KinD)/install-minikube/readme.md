@@ -66,4 +66,4 @@
 
 **Here, we can see that it is a single-node Kubernetes cluster running version v1.26.3. Kubernetes is now up and running!**
 
-**This setup is excellent for development machines where developers want to deploy and test a single component they are working on.**
+**`This setup is excellent for development machines where developers want to deploy and test a single component they are working on.`**
