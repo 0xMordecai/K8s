@@ -18,7 +18,7 @@
     kubectl version --client
 ```
 
-Since kubectl was installed successfully, you must download the minikube binary and then move it to your system path using the following commands:
+**Since kubectl was installed successfully, you must download the minikube binary and then move it to your system path using the following commands:**
 ```shell
     curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
 ```
