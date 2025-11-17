@@ -28,5 +28,5 @@
     sudo apt-get install -y conntrack
 ```
 
-**Check existing Docker contexts**
+**Check if there is existing Docker contexts**
 docker context ls
