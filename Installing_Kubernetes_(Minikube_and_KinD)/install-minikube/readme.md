@@ -27,3 +27,6 @@
 ```shell
     sudo apt-get install -y conntrack
 ```
+
+**Check existing Docker contexts**
+docker context ls
