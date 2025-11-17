@@ -15,5 +15,5 @@
 ```
 Test to ensure the version you installed is up-to-date
 ```shell
-kubectl version --client
+    kubectl version --client
 ```
