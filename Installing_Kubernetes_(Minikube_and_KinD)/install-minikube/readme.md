@@ -49,3 +49,6 @@
 ```
 
 **As `Minikube` is now up and running, we will use the `kubectl command-line` utility to interact with the Kube API server to manage Kubernetes resources. The `kubectl commands` have a standard structure and are self-explanatory in most cases. They are structured as follows:**
+```shell
+    kubectl <verb> <resource type> <resource name> [--flags]
+```
