@@ -29,4 +29,6 @@
 ```
 
 **Check if there is existing Docker contexts**
+```shell
 docker context ls
+```
