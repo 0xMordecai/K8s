@@ -24,3 +24,6 @@
 ```
 
 **Now, let’s install the packages required by Minikube to function correctly by running the following command:**
+```shell
+    sudo apt-get install -y conntrack
+```
