@@ -23,4 +23,4 @@
     curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64 && sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 ```
 
-Now, let’s install the packages required by Minikube to function correctly by running the following command:
+**Now, let’s install the packages required by Minikube to function correctly by running the following command:**
