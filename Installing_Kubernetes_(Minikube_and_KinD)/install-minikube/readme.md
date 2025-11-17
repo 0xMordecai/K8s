@@ -68,5 +68,5 @@
 
 **`This setup is excellent for development machines where developers want to deploy and test a single component they are working on.`**
 
-To stop the Minikube cluster and delete it from the machine, you can use the following command:
+**To stop the Minikube cluster and delete it from the machine, you can use the following command:**
 $ minikube stop
