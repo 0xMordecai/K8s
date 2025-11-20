@@ -5,4 +5,4 @@
 You cannot maintain multiple versions of your code or roll out and roll back releases using a pod. You
 also cannot autoscale your application with traffic with pods alone. Pods do not allow you to expose
 your containers to the outside world, and they do not provide traffic management capabilities such as
-load balancing, content and path-based routing, storing persistent data to externally attached storage,
+load balancing, content and path-based routing, storing persistent data to externally attached storage,and so on.
