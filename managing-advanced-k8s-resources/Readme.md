@@ -8,7 +8,7 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **• The need for advanced Kubernetes resources**
 
-• Kubernetes Deployments
+**• Kubernetes Deployments**
 
 • Kubernetes Services and Ingresses
 
