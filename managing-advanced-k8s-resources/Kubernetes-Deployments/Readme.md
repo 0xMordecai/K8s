@@ -16,7 +16,7 @@
 
 **• `Scaling easily`: Imagine your restaurant suddenly gets a rush of customers, and you need more plates for your special dish. `A Kubernetes Deployment helps with that, too. It can quickly create more copies of your pod to handle the increased demand and remove them when things quieten down`.**
 
-• `Managing multiple kitchens`: If you have multiple restaurants, you’d want your signature dish to taste the same in all of them. Similarly, if you’re using Kubernetes across different environments such as testing, development, and production, Deployments help keep things consistent.
+• `Managing multiple kitchens`: If you have multiple restaurants, you’d want your signature dish to taste the same in all of them. Similarly, `if you’re using Kubernetes across different environments such as testing, development, and production, Deployments help keep things consistent`.
 
 In essence, Kubernetes Deployments help manage your pod, like a sous chef manages the dishes served from a kitchen. They ensure consistency, safety, and flexibility, ensuring your application runs smoothly and can be updated without causing a mess in your software kitchen.
 
