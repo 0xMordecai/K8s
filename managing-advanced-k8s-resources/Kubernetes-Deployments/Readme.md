@@ -18,6 +18,4 @@ Here’s how it works:
 
 • Managing multiple kitchens: If you have multiple restaurants, you’d want your signature dish to taste the same in all of them. Similarly, if you’re using Kubernetes across different environments such as testing, development, and production, Deployments help keep things consistent.
 
-In essence, Kubernetes Deployments help manage your pod, like a sous chef manages the dishes
-served from a kitchen. They ensure consistency, safety, and flexibility, ensuring your application runs
-smoothly and can be updated without causing a mess in your software kitchen.
+In essence, Kubernetes Deployments help manage your pod, like a sous chef manages the dishes served from a kitchen. They ensure consistency, safety, and flexibility, ensuring your application runs smoothly and can be updated without causing a mess in your software kitchen.
