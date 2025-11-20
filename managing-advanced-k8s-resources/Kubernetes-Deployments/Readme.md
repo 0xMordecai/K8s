@@ -20,6 +20,4 @@ Here’s how it works:
 
 In essence, Kubernetes Deployments help manage your pod, like a sous chef manages the dishes served from a kitchen. They ensure consistency, safety, and flexibility, ensuring your application runs smoothly and can be updated without causing a mess in your software kitchen.
 
-Container application Deployments within Kubernetes are done through Deployment resources.
-Deployment resources employ ReplicaSet resources behind the scenes, so it would be good to
-look at ReplicaSet resources before we move on to understand Deployment resources.
+Container application Deployments within Kubernetes are done through Deployment resources. Deployment resources employ ReplicaSet resources behind the scenes, so it would be good to look at ReplicaSet resources before we move on to understand Deployment resources.
