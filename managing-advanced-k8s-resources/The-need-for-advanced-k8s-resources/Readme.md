@@ -1,6 +1,3 @@
 # The need for advanced Kubernetes resources
 
-In the last chapter, we looked at pods, the basic building blocks of Kubernetes that provide everything
-for your containers to run within a Kubernetes environment. However, pods on their own are not
-that effective. The reason is that while they define a container application and its specification, they
-do not replicate, auto-heal, or maintain a particular state. When you delete a pod, the pod is gone.
+In the last chapter, we looked at pods, the basic building blocks of Kubernetes that provide everything for your containers to run within a Kubernetes environment. However, pods on their own are not that effective. The reason is that while they define a container application and its specification, they do not replicate, auto-heal, or maintain a particular state. When you delete a pod, the pod is gone.
