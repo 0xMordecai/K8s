@@ -18,4 +18,4 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **• Kubernetes command-line best practices, tips, and tricks**
 
-So, let’s dive in!
+**So, let’s dive in!**
