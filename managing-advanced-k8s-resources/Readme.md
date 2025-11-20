@@ -16,6 +16,6 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **• Managing stateful applications**
 
-• Kubernetes command-line best practices, tips, and tricks
+**• Kubernetes command-line best practices, tips, and tricks**
 
 So, let’s dive in!
