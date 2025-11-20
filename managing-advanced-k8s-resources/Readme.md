@@ -10,7 +10,7 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **• Kubernetes Deployments**
 
-• Kubernetes Services and Ingresses
+**• Kubernetes Services and Ingresses**
 
 • Horizontal pod autoscaling
 
