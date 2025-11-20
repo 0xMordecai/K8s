@@ -1,0 +1,21 @@
+# Download the latest release of kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+# Install kubectl to /usr/local/bin/kubectl
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+# Test to ensure the version you installed is up-to-date
+kubectl version --client
+
+# download the minikube binary
+curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+# Install kubectl to /usr/local/bin/minikube
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+# install the packages required by Minikube to function correctly
+sudo apt-get install -y conntrack
+# Check existing Docker contexts
+docker context ls
+# set Docker context to `default` to avoid problems running minikube
+docker context use default
+# start a minikube cluster
+minikube start --driver=docker
+#  let’s use kubectl to get nodes and check whether our cluster is ready to run our containers
+kubectl get nodes
