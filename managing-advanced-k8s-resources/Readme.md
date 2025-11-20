@@ -4,7 +4,7 @@
 
 Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes command-line best practices.
 
-In this chapter, we’re going to cover the following main topics:
+**In this chapter, we’re going to cover the following main topics:**
 
 • The need for advanced Kubernetes resources
 
