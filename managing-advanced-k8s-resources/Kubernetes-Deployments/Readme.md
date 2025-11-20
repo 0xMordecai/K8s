@@ -14,5 +14,9 @@ Here’s how it works:
 
 •Rolling back gracefully: Sometimes, experiments don’t go as planned, and you must revert to the original recipe. Just as in your kitchen, Kubernetes lets you roll back to the previous version of your pod if things don’t work out with the new one.
 
-•
+•Scaling easily: Imagine your restaurant suddenly gets a rush of customers, and you need more
+plates for your special dish. A Kubernetes Deployment helps with that, too. It can quickly
+create more copies of your pod to handle the increased demand and remove them when things
+quieten down.
+
 •
