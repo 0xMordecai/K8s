@@ -12,7 +12,7 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **• Kubernetes Services and Ingresses**
 
-• Horizontal pod autoscaling
+**• Horizontal pod autoscaling**
 
 • Managing stateful applications
 
