@@ -6,7 +6,7 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **In this chapter, we’re going to cover the following main topics:**
 
-• The need for advanced Kubernetes resources
+**• The need for advanced Kubernetes resources**
 
 • Kubernetes Deployments
 
