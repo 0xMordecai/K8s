@@ -14,7 +14,7 @@ Now, we will dive deep into the advanced aspects of Kubernetes and Kubernetes co
 
 **• Horizontal pod autoscaling**
 
-• Managing stateful applications
+**• Managing stateful applications**
 
 • Kubernetes command-line best practices, tips, and tricks
 
