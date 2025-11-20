@@ -12,6 +12,9 @@ Here’s how it works:
 
 •Updating safely: Now, imagine you have a new twist for your dish. You want to try it out, but you want your guests only to eat something if it turns out right. Similarly, when you want to update your app in Kubernetes, the Deployment resource slowly and carefully replaces old copies with new ones individually, so your app is always available, and your guests (or users) don’t notice any hiccups.
 
-•
+•Rolling back gracefully: Sometimes, experiments don’t go as planned, and you must revert to
+the original recipe. Just as in your kitchen, Kubernetes lets you roll back to the previous version
+of your pod if things don’t work out with the new one.
+
 •
 •
