@@ -9,3 +9,24 @@
 For understanding, however, let’s look at an example:
 
 **The `ReplicaSet` resource manifest, `nginx-replica-set.yaml`, looks like this:**
+```yaml
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+```
