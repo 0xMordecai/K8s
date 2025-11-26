@@ -34,7 +34,8 @@ spec:
 **The resource manifest includes `apiVersion` and `kind`, as with any other resource. It also contains a `metadata` section that defines the resource’s `name` and `labels` attributes, similar to any other Kubernetes resource.**
 
 The spec section contains the following attributes:
-•   `replicas`: This defines the number of pod replicas matched by the selector to run at a given time.
+
+**•   `replicas`: This defines the number of pod replicas matched by the selector to run at a given time.**
 
 **•   `selector`: This defines the basis on which the ReplicaSet resource will include pods.**
 
