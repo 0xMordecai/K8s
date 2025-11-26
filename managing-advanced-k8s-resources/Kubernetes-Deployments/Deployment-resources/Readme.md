@@ -7,3 +7,6 @@
 **Kubernetes Deployments use `ReplicaSet` resources as a backend**, and the chain of resources looks like what’s shown in the following diagram:
 
 ![alt text](img.png)
+
+Let’s take the preceding example and create an nginx Deployment resource manifest—nginx-
+deployment.yaml:
