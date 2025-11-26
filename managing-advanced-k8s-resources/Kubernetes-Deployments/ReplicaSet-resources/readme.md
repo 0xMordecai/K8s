@@ -36,7 +36,7 @@ spec:
 The spec section contains the following attributes:
 •   `replicas`: This defines the number of pod replicas matched by the selector to run at a given time.
 
-•   `selector`: This defines the basis on which the ReplicaSet resource will include pods.
+**•   `selector`: This defines the basis on which the ReplicaSet resource will include pods.**
 
 **•   `selector.matchLabels`: This defines labels and their values to select pods. Therefore,`the ReplicaSet resource will select any pod with the app: nginx label`.**
 
