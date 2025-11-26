@@ -37,5 +37,4 @@ spec:
 ```shell
     kubectl apply -f nginx-deployment.yaml
 ```
-So, as the Deployment resource has been created, let’s look at the chain of resources it created. Let’s
-run kubectl get to list the Deployment resources using the following command:
+So, as the Deployment resource has been created, let’s look at the chain of resources it created. Let’s run kubectl get to list the Deployment resources using the following command:
