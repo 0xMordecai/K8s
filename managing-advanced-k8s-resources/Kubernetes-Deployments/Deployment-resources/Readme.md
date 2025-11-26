@@ -30,3 +30,6 @@ spec:
       - name: nginx
         image: nginx
 ```
+
+The manifest is very similar to the ReplicaSet resource, except for the kind attribute—Deployment,
+in this case.
