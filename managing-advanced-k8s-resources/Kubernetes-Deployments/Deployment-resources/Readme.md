@@ -33,7 +33,7 @@ spec:
 
 **The manifest is very similar to the `ReplicaSet` resource, except for the `kind` attribute — `Deployment`, in this case.**
 
-Let’s apply the manifest by using the following command:
+**Let’s apply the manifest by using the following command:**
 ```shell
     kubectl apply -f nginx-deployment.yaml
 ```
