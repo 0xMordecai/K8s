@@ -45,4 +45,4 @@ NAME    READY   UP-TO-DATE   AVAILABLE   AGE
 nginx   3/3     3            3           6s
 ```
 
-**And we see there is one `Deployment` resource called `nginx`, with `3/3 ready pods` and `3 up-to-date pods`. As Deployment resources manage multiple versions, UP-TO-DATE signifies whether the latest Deployment resource has rolled out successfully.**
+**And we see there is one `Deployment` resource called `nginx`, with `3/3 ready pods` and `3 up-to-date pods`. As Deployment resources manage multiple versions, `"UP-TO-DATE" signifies whether the latest Deployment resource has rolled out successfully`.**
