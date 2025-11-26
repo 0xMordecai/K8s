@@ -30,3 +30,7 @@ spec:
       - name: nginx
         image: nginx
 ```
+
+The resource manifest includes apiVersion and kind, as with any other resource. It also contains
+a metadata section that defines the resource’s name and labels attributes, similar to any other
+Kubernetes resource.
