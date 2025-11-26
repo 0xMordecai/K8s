@@ -31,4 +31,4 @@ spec:
         image: nginx
 ```
 
-**The manifest is very similar to the `ReplicaSet` resource, except for the kind attribute—Deployment, in this case.**
+**The manifest is very similar to the `ReplicaSet` resource, except for the `kind` attribute — `Deployment`, in this case.**
