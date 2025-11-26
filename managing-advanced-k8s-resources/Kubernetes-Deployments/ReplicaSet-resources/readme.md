@@ -45,4 +45,4 @@ The spec section contains the following attributes:
 
 **The `ReplicaSet` resource has appended a random hash to generate unique pods at the end of the `ReplicaSet` resource name. Yes—the name of every resource of a particular kind in Kubernetes should be unique.**
 
-**As we discussed, ReplicaSet resources should not be used on their own but should instead be the backend of Deployment resources. Let’s now look at Kubernetes Deployment resources.**
+**As we discussed, `ReplicaSet resources should not be used on their own but should instead be the backend of Deployment resources. Let’s now look at Kubernetes Deployment resources`.**
