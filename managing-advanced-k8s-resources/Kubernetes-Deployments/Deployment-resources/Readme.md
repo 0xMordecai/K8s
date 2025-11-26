@@ -64,4 +64,4 @@ nginx-6799fc88d8-d52mj   1/1     Running   0    �
 nginx-6799fc88d8-dmpbn   1/1     Running   0          15s
 nginx-6799fc88d8-msvxw   1/1     Running   0          15s
 ```
-And, as expected, we have three pods. Each begins with the ReplicaSet resource name and ends with a random hash. That’s why you see two hashes in the pod name.
+**And, as expected, we have three pods. Each begins with the ReplicaSet resource name and ends with a random hash. That’s why you see two hashes in the pod name.**
