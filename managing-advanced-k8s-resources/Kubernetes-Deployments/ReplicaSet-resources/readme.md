@@ -3,4 +3,4 @@
 
 **`ReplicaSet` resources define the number of pod replicas to run at a given time. The Kubernetes controller then tries to maintain the replicas and recreates a pod if it goes down.**
 
-**You should never use ReplicaSet resources on their own, but instead, they should act as a backend to a Deployment resource.**
+**You should never use `ReplicaSet` resources on their own, but instead, they should act as a backend to a `Deployment` resource.**
