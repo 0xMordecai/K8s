@@ -46,3 +46,6 @@ nginx   3/3     3            3   �
 ```
 
 **And we see there is one `Deployment` resource called `nginx`, with `3/3 ready pods` and `3 up-to-date pods`. As Deployment resources manage multiple versions, `"UP-TO-DATE" signifies whether the latest Deployment resource has rolled out successfully`.**
+
+As we know Deployment resources create ReplicaSet resources in the background, let’s get the
+ReplicaSet resources using the following command:
