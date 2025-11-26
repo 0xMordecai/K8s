@@ -38,3 +38,9 @@ spec:
     kubectl apply -f nginx-deployment.yaml
 ```
 **So, as the Deployment resource has been created, let’s look at the chain of resources it created. Let’s run `kubectl get` to list the `Deployment` resources using the following command:**
+
+```shell
+$ kubectl get deployment
+NAME    READY   UP-TO-DATE   AVAILABLE   AGE
+nginx   3/3     3            3           6s
+```
