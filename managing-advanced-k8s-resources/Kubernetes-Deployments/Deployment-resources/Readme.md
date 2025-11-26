@@ -8,4 +8,4 @@
 
 ![alt text](img.png)
 
-Let’s take the preceding example and create an nginx Deployment resource manifest—nginx-deployment.yaml:
+**Let’s take the preceding example and create an nginx Deployment resource `manifest—nginx-deployment.yaml`:**
