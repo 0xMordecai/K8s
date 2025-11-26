@@ -53,3 +53,5 @@ $ kubectl get replicaset
 NAME               DESIRED   CURRENT   READY   AGE
 nginx-6799fc88d8   3         3         3       11s
 ```
+And we see that the Deployment resource has created a ReplicaSet resource, which starts with
+nginx and ends with a random hash.
