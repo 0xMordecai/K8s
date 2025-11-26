@@ -56,3 +56,11 @@ nginx-6799fc88d8   3         3        �
 **And we see that the `Deployment` resource has created a `ReplicaSet` resource, which starts with nginx and ends with a random hash.**
 
 **Next in the chain are pods, so let’s get the pods using the following command to see for ourselves:**
+
+```shell
+$ kubectl get pod
+NAME                     READY   STATUS    RESTARTS   AGE
+nginx-6799fc88d8-d52mj   1/1     Running   0          15s
+nginx-6799fc88d8-dmpbn   1/1     Running   0          15s
+nginx-6799fc88d8-msvxw   1/1     Running   0          15s
+```
