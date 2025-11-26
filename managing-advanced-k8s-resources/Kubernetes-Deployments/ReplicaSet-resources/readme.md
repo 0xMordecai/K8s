@@ -7,3 +7,5 @@
 **You should never use `ReplicaSet` resources on their own, but instead, they should act as a backend to a `Deployment` resource.**
 
 For understanding, however, let’s look at an example:
+
+**The `ReplicaSet` resource manifest, `nginx-replica-set.yaml`, looks like this:**
