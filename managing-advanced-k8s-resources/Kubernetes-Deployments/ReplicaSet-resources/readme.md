@@ -44,3 +44,6 @@ The spec section contains the following attributes:
 **•   `template`: `"This is an optional section that you can use to define the pod template"`. This section’s contents are very similar to defining a pod, except it lacks the name attribute, as the ReplicaSet resource will generate dynamic names for pods. `If you don’t include this section, the ReplicaSet resource will still try to acquire existing pods with matching labels`. However, `it cannot create new pods because of the missing template. Therefore, it is best practice to specify a template for a ReplicaSet resource`.**
 
 **The `ReplicaSet` resource has appended a random hash to generate unique pods at the end of the `ReplicaSet` resource name. Yes—the name of every resource of a particular kind in Kubernetes should be unique.**
+
+As we discussed, ReplicaSet resources should not be used on their own but should instead be the
+backend of Deployment resources. Let’s now look at Kubernetes Deployment resources.
